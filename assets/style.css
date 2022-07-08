@@ -1,5 +1,5 @@
 body{
-    /* background: #FAFAFA !important; */
+    background: #F4F4F4 !important;
     overflow-x: hidden;
     font-family: 'Poppins', serif !important;
 }
@@ -75,14 +75,26 @@ input {
 header{
     width: 100%;
     position: fixed;
+    top: 0;
+    background-color: #316BB5;
 }
 .header{
     padding: 8px 16px;
-    background-color: #316BB5;
 }
 .header-menu .header-menu_item{
     margin: 0 50px;
 }
 .header-menu .header-menu_item a{
     color: white;
+}
+
+/* Main */
+.main{
+    grid-gap: 16px;
+    margin: 112px 0;
+}
+.main .main-center_side{
+    flex-grow: 4;
+    padding: 7px 14px;
+    background-color: white;
 }
