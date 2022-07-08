@@ -1,7 +1,7 @@
 body{
     /* background: #FAFAFA !important; */
     overflow-x: hidden;
-    font-family: 'Montagu Slab', serif !important;
+    font-family: 'Poppins', serif !important;
 }
 
 /* Default settings */
@@ -65,4 +65,24 @@ input {
 
 .column{
     flex-direction: column;
+}
+
+.noHover:hover{
+    color: white;
+}
+
+/* Header section */
+header{
+    width: 100%;
+    position: fixed;
+}
+.header{
+    padding: 8px 16px;
+    background-color: #316BB5;
+}
+.header-menu .header-menu_item{
+    margin: 0 50px;
+}
+.header-menu .header-menu_item a{
+    color: white;
 }
