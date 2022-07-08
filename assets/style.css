@@ -1,0 +1,68 @@
+body{
+    /* background: #FAFAFA !important; */
+    overflow-x: hidden;
+    font-family: 'Montagu Slab', serif !important;
+}
+
+/* Default settings */
+ul {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0 !important;
+}
+
+input {
+    outline: none !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.j-start {
+    justify-content: flex-start;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.a-start {
+    align-items: flex-start;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-end {
+    align-items: flex-end;
+}
+
+.column{
+    flex-direction: column;
+}
