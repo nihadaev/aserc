@@ -71,6 +71,16 @@ input {
     color: white;
 }
 
+.title{
+    color: white;
+    width: 100%;
+    display: block;
+    background-color: #316BB5;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+}
+
 /* Header section */
 header{
     width: 100%;
@@ -98,14 +108,33 @@ header{
     padding: 7px 14px;
     background-color: white;
 }
+
+/* Main section > Left side */
+
+.main-left_banner{
+    margin-bottom: 24px;
+}
+.main-left_partners{
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 14px;
+}
+.main-left_partners .title{
+    margin-bottom: 14px;
+}
+.main-left_partners-all{
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+
 /* Footer section */
 footer{
     width: 100%;
     background-color: #0C2E58;
     padding-top: 33px;
     padding-bottom: 14px;
-    position: absolute;
-    bottom: 0;
 }
 .footer-content{
     display: flex;
