@@ -67,7 +67,6 @@ input {
     flex-direction: column;
 }
 
-
 .noHover:hover{
     color: white;
 }
@@ -81,7 +80,10 @@ input {
     padding: 5px 0;
     border-radius: 3px;
 }
-
+.color-black{
+    font-weight: 500;
+    color: #000;
+}
 /* Header section */
 header{
     z-index: 12;
@@ -284,7 +286,75 @@ header .container{
     display: inline-block;
     background-color: #316BB5;
     border-radius: 3px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 6px;
 }
+.article-info .article-info_btn:nth-of-type(2){
+    margin-left: 16px;
+}
+.article-abstract{
+    margin: 30px 0;
+}
+.article-abstract h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: #18539d;
+    margin-bottom: 10px;
+}
+.article-abstract p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+}
+.article-tags{
+    margin-top: 19px;
+}
+.article-tags li:first-child{
+    margin: 0;
+}
+.article-tags li{
+    margin-left: 12px;
+}
+.article-tags li a{
+    display: inline-block;
+    background-color: #d4ecf5;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    border-radius: 3px;
+}
+.swiper-button-next::after{
+    display: none;
+}
+.swiper-button-prev::after{
+    display: none;
+}
+.article-statistics_head{
+    font-size: 14px;
+    font-weight: 300;
+}
+.article-statistics_source{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.archive-detail-pagination{
+    margin-top: 25px !important;
+}
+.archive-detail-pagination a{
+    padding: 0 8px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000;
+}
+.archive-detail-pagination a:last-child{
+    border-left: 1px solid rgba(0, 0, 0, 0.253) ;
+}
+
 
 /* Editorial board */
 .editorial-board h3{
