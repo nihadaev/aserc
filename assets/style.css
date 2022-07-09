@@ -67,9 +67,6 @@ input {
     flex-direction: column;
 }
 
-.hiddenOverflow{
-    overflow: hidden;
-}
 
 .noHover:hover{
     color: white;
