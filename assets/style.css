@@ -727,6 +727,12 @@ footer{
         
         height: 100%;
     }
+    .main-right_side img{
+        display: none;
+    }
+    .main-left_side{
+        display: none;
+    }
 }
 @media (max-width: 475px){
     .editor{
@@ -747,4 +753,13 @@ footer{
 .main-right_side li a.active{
     border: 2px solid #dbdada;
     font-weight: 700;
+}
+.main-left_banner{
+    width: 100%;
+}
+.main-left_banner img{
+    width: 100%;
+}
+.main-right_side img{
+    width: 100%;
 }
