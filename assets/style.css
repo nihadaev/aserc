@@ -229,6 +229,33 @@ header .container{
     color: #fff;
     margin-left: 11px;
 }
+.archive-detail_authors{
+    margin-top: 12px;
+}
+.archive-detail_authors li:first-child{
+    margin: 0;
+}
+.archive-detail_authors li{
+    margin-left: 13px;
+}
+.archive-detail_authors li h2{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+}
+.archive-detail_authors li a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    color: #2474a2;
+    padding-right: 35px;
+    position: relative;
+}
+.archive-detail_authors li a .author-icons{
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
 
 /* Footer section */
 footer{
