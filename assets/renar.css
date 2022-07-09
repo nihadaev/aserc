@@ -211,6 +211,31 @@
     .form-confirm{
         width: 100%;
     }
+    .header-menu{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        height: 100vh;
+        z-index: 2;
+        width: 100%;
+        background-color: #316bb5;
+        padding: 50px 16px !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .header-menu_item{
+        margin-bottom: 30px;
+        margin-right: 0 !important;
+    }
+    .active-page{
+        border-bottom: none !important;
+    }
+    .mobile-bar{
+        color: white;
+        display: block;
+    }
 }
 @media (max-width: 475px){
     .editor{
