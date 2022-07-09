@@ -92,7 +92,7 @@ header{
     padding: 8px 16px;
 }
 .header-menu .header-menu_item{
-    margin: 0 50px;
+    margin: 0 30px;
 }
 .header-menu .header-menu_item a{
     color: white;
@@ -105,9 +105,43 @@ header{
 }
 .main .main-center_side{
     flex-grow: 4;
-    padding: 7px 14px;
+    padding: 7px 16px;
     background-color: white;
 }
+
+/* Main section > Left side */
+.main-left_banner{
+    margin-bottom: 24px;
+}
+.main-left_partners{
+    width: 100%;
+    height: 100%;
+    padding: 5px 0;
+    margin-bottom: 14px;
+}
+.main-left_partners .title{
+    margin-bottom: 14px;
+}
+.main-left_partners-all{
+    border-radius: 3px;
+    height: 100%;
+    background-color: white;
+}
+
+/* Main section > Center */
+.text-title{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.06px;
+    padding-bottom: 7px;
+}
+.text{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+/*  Main section > Right side */
 .main-right_side img{
     margin-bottom: 16px;
 }
@@ -149,12 +183,36 @@ header{
 }
 
 /* Main section center side */
-.main-center_side h1{
-    font-size: 24px;
-    font-weight: 500;
-    color: #000;
+.main-center_side-img{
+    float: right;
+    padding: 16px;
+    margin-top: 32px;
+}
+.main-center_side-img img{
+    
+    width: 120px;
+    height: 138px;
+    object-fit: cover;
 }
 
+/* Archive detail */
+.open-access{
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #11417e;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+.article{
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #9f1326;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 11px;
+}
 
 /* Footer section */
 footer{
