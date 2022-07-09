@@ -36,6 +36,9 @@
     width: 100%;
     margin-right: 20px;
 }
+.detail-row input{
+    width: 100% ;
+}
 .form-confirm{
     width: 144px;
     font-size: 16px;
@@ -195,7 +198,8 @@
 /* Media queries */
 @media (max-width: 776px){
     .main{
-        flex-direction: column;
+        display: flex;
+        flex-direction: column !important;
     }
     .main-left_side{
         order: 2;
@@ -216,4 +220,7 @@
         align-items: flex-start;
         flex-direction: column;
     }
+}
+.main{
+    flex-direction: column;
 }

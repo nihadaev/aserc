@@ -116,13 +116,19 @@ header .container{
 
 /* Main */
 .main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px,1fr));
     grid-gap: 16px;
     margin: 112px 0;
 }
 .main .main-center_side{
-    flex-grow: 4;
+    grid-column: span 3;
     padding: 7px 16px;
     background-color: white;
+}
+.right-sticky{
+    position: sticky;
+    top: 0;
 }
 
 /* Main section > Left side */
@@ -190,6 +196,9 @@ header .container{
     padding: 5px 0;
     margin-bottom: 14px;
 }
+.main-left_partners-all{
+    padding: 8px;
+}
 .main-left_partners .title{
     margin-bottom: 14px;
 }
@@ -255,6 +264,14 @@ header .container{
     position: absolute;
     right: 0;
     top: -10px;
+}
+.article-info{
+    margin: 20px 0;
+}
+.article-info .article-info_btn{
+    display: inline-block;
+    background-color: #316BB5;
+    border-radius: 3px;
 }
 
 /* Editorial board */
