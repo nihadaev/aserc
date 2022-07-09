@@ -257,6 +257,38 @@ header .container{
     top: -10px;
 }
 
+/* Editorial board */
+.editorial-board h3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.associate-editor{
+    margin: 40px 0; 
+}
+.editorial-board-info{
+    column-gap: 30px;
+}
+.editorial-board-info ul li{
+    margin-bottom: 10px;
+}
+.editorial-board-info p{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: #000;
+}
+.editorial-board-info p span{
+    font-weight: 700;
+    font-style: normal;
+}
+.technical-editor{
+    margin: 40px 0;
+}
+.contact-address{
+    margin: 40px 0;
+}
+
 /* Footer section */
 footer{
     width: 100%;
