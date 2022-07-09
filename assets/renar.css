@@ -1,0 +1,111 @@
+/* Form page */
+.form{
+    display: grid;
+    padding: 17px 0;
+    row-gap: 40px;
+    column-gap: 28px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+}
+.form-field .form-field_label{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #797979;
+    padding-bottom: 4px;
+}
+.form-field .form-field_input{
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #C9C9C9
+}
+.textarea-field,.detail-field{
+    grid-column: span 2;
+}
+.textarea-field textarea{
+    resize: none;
+    outline: none;
+}
+.detail-flex{
+    padding: 17px 25px;
+    border-radius: 3px;
+    border: 1px solid #C9C9C9;
+}
+.detail-row{
+    width: 100%;
+    margin-right: 20px;
+}
+.form-confirm{
+    width: 144px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    border: none;
+    color: white;
+    padding: 12px 38px;
+    border-radius: 3px;
+    background-color: #C9C9C9;
+}
+
+/* Archives */
+.sort{
+    margin: 35px 0 0 0;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.sort p{
+    font-weight: 500;
+}
+.sort span{
+    cursor: pointer;
+    font-weight: 300;
+    padding-left: 2px;
+    text-decoration: underline;
+}
+.archive{
+    padding-bottom: 15px;
+    border-top: 0.5px solid #98DEF8;
+}
+.archive .archive-link{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #316BB5;
+}
+.archive-date{
+    padding: 2px 0 5px 0;
+}
+.archive-date p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 2px;
+}
+.archive-authors p{
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.archive-doi{
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    transition: .2s ease-in-out;
+    text-decoration: underline !important;
+}
+.archive-doi:hover{
+    color: #316BB5;
+}
