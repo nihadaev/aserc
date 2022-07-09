@@ -109,3 +109,111 @@
 .archive-doi:hover{
     color: #316BB5;
 }
+
+/* Editors */
+.editors{
+    padding: 24px 0;
+}
+.editor{
+    margin-bottom: 32px;
+}
+.text-gr{
+    color: #A0A0A0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.editor-position{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+.editor-person{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.editor-person span{
+    padding-left: 2px;
+}
+/* Members section */
+.small-title{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+.members{
+    display: grid;
+    padding-top: 5px;
+    column-gap: 120px;
+    row-gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+}
+.member{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* Editorial address */
+.editorial-address{
+    padding: 53px 0 0 0;
+}
+.editorial-address .address{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.contact-address{
+    padding: 14px 0;
+}
+.contact-address a{
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-bottom: 4px;
+}
+.contact-address a span{
+    padding-right: 6px;
+}
+
+/* Media queries */
+@media (max-width: 776px){
+    .main{
+        flex-direction: column;
+    }
+    .main-left_side{
+        order: 2;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-flex{
+        flex-direction: column;
+    }
+    .form-confirm{
+        width: 100%;
+    }
+}
+@media (max-width: 475px){
+    .editor{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
