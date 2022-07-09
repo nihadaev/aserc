@@ -195,7 +195,8 @@
 /* Media queries */
 @media (max-width: 776px){
     .main{
-        flex-direction: column;
+        display: flex;
+        flex-direction: column !important;
     }
     .main-left_side{
         order: 2;
@@ -216,4 +217,7 @@
         align-items: flex-start;
         flex-direction: column;
     }
+}
+.main{
+    flex-direction: column;
 }

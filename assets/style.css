@@ -116,13 +116,19 @@ header .container{
 
 /* Main */
 .main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px,1fr));
     grid-gap: 16px;
     margin: 112px 0;
 }
 .main .main-center_side{
-    flex-grow: 4;
+    grid-column: span 3;
     padding: 7px 16px;
     background-color: white;
+}
+.right-sticky{
+    position: sticky;
+    top: 0;
 }
 
 /* Main section > Left side */
