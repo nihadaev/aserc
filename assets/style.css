@@ -83,16 +83,23 @@ input {
 
 /* Header section */
 header{
+    z-index: 12;
     width: 100%;
     position: fixed;
     top: 0;
     background-color: #316BB5;
 }
+header .container{
+    padding: 0;
+}
 .header{
     padding: 8px 16px;
 }
 .header-menu .header-menu_item{
-    margin: 0 30px;
+    margin-right: 50px;
+}
+.header-menu .header-menu_item:last-child{
+    margin-right: 0;
 }
 .header-menu .header-menu_item a{
     color: white;
@@ -102,6 +109,9 @@ header{
 }
 .header-menu .header-menu_item a:hover{
     border-bottom: 2px solid white;
+}
+.active-page{
+    border-bottom: 2px solid white !important;
 }
 
 /* Main */
