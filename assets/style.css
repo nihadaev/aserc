@@ -379,6 +379,17 @@ header .container{
 .main-right_side img{
     margin-bottom: 16px;
 }
+.main-right_side ul{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.main-right_side ul::-webkit-scrollbar{
+    background-color: #efefef;
+    width: 4px;
+}
+.main-right_side ul::-webkit-scrollbar-thumb{
+    background-color: #316bb5;
+}
 .main-right_side ul li{
     margin-bottom: 7px;
 }
