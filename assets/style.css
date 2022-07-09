@@ -96,6 +96,12 @@ header{
 }
 .header-menu .header-menu_item a{
     color: white;
+    padding-bottom: 6px;
+    transition: .3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.header-menu .header-menu_item a:hover{
+    border-bottom: 2px solid white;
 }
 
 /* Main */
